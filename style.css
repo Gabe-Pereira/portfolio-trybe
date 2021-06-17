@@ -24,4 +24,9 @@ body {
     flex-direction: initial;
 }
 
-#foto
+#foto {
+    border-radius: 60%;
+    width: 10%;
+    
+    
+}
