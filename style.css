@@ -2,6 +2,16 @@ body {
     background-color: #131c25;
     color: white;
     font-family: monospace;
+    
+}
+
+header {
+        position: fixed;
+        right: 0;
+        top: 0;
+        left: 0;
+        
+
 }
 
 .titulo {
@@ -9,15 +19,18 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px;
+    padding: px;
 }
 
 .site {
     padding: 20px 20px;
     display: flex;
     flex-direction: initial;
-    justify-content: space-evenly;
     background-color: gray;
+    opacity: 0,8;
+}
+.site:hover {
+    opacity: 1.0;
 }
 
 .site2 {
@@ -40,11 +53,12 @@ opacity: 1.0;
 
 .imgp {
     display: flex;
-    align-items: center;
+    align-items:center;
 background-color: gray;
 color: black;
-margin: 70px;
-padding: 10px;
+margin:100px;
+padding: 30px;
+
 }
 
 .textop {
@@ -54,7 +68,20 @@ font-size:  25px;
 
 }
 
+.h2 {
+background-color: black;
+display: flex;
+align-items: center;
+font-style: italic;
+justify-content: center;
+}
 
+.list {
+    font-size: 20px;
+}
 
-
-
+.plist {
+    font-family: monospace;
+    font-size:25px;
+    font-weight: 600;
+}
